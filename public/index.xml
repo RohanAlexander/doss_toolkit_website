@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DoSS Toolkit</title>
+    <link>https://www.dosstoolkit.com/</link>
+    <description>Recent content on DoSS Toolkit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://www.dosstoolkit.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://www.dosstoolkit.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dosstoolkit.com/about/</guid>
+      <description>Overview We all know that R is a critical part of statistics these days, but it can have a steep learning curve and be intimidating to get started with. The Department of Statistical Sciences (DoSS) toolkit is a free series of open source online modules written by undergraduates, that their fellow students and the public can use to learn the essentials of R.
+ How to use this resource The best way to use this is to download the package and run it locally.</description>
+    </item>
+    
+    <item>
+      <title>Assessment</title>
+      <link>https://www.dosstoolkit.com/assessment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dosstoolkit.com/assessment/</guid>
+      <description>Coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Lessons</title>
+      <link>https://www.dosstoolkit.com/lessons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dosstoolkit.com/lessons/</guid>
+      <description>Coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Modules</title>
+      <link>https://www.dosstoolkit.com/modules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dosstoolkit.com/modules/</guid>
+      <description>Coming soon.</description>
+    </item>
+    
+  </channel>
+</rss>

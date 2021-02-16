@@ -1,0 +1,94 @@
+baseurl = "https://www.dosstoolkit.com/"
+title = "DoSS Toolkit"
+
+theme = "hugo-coder"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+# disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "DoSS Toolkit"
+    description = "Resources to help you learn and use R."
+    keywords = "blog,developer,personal"
+    info = "Self-paced modules to help you learn and use R."
+    avatarurl = "images/screenshot.png"
+    footercontent = ""
+    
+    math = true
+
+    dateformat = "January 2, 2006"
+
+    hideCredits = true
+    hideCopyright = true
+
+    # Git Commit in Footer, uncomment the line below to enable it.
+    #commit = "https://github.com/luizdepra/hugo-coder/tree/"
+
+    rtl = false
+
+    # Use inverted colors
+    inverted = false
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    # Custom CSS
+    custom_css = []
+    
+    # Custom JS
+    custom_js = []
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/RohanAlexander/doss-toolkit"
+[[params.social]]
+    name = "Mail"
+    icon = "fas fa-envelope"
+    weight = 4
+    url = "mailto:rohan.alexander@utoronto.ca"
+
+
+[languages]
+    [languages.en]
+        languagename = "English"
+
+        [[languages.en.menu.main]]
+        name = "About"
+        weight = 1
+        url = "about/"
+        
+        [[languages.en.menu.main]]
+        name = "Modules"
+        weight = 2
+        url = "modules/"
+
+        [[languages.en.menu.main]]
+        name = "Lessons"
+        weight = 3
+        url = "lessons/"
+        
+        [[languages.en.menu.main]]
+        name = "Assessment"
+        weight = 4
+        url = "assessment/"
+
+
+
