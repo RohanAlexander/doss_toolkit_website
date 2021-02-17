@@ -3,35 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://dosstoolkit.netlify.app/about/</loc>
+    <loc>/about/</loc>
   </url>
   
   <url>
-    <loc>http://dosstoolkit.netlify.app/assessment/</loc>
+    <loc>/assessment/</loc>
   </url>
   
   <url>
-    <loc>http://dosstoolkit.netlify.app/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>http://dosstoolkit.netlify.app/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>http://dosstoolkit.netlify.app/lessons/</loc>
+    <loc>/lessons/</loc>
   </url>
   
   <url>
-    <loc>http://dosstoolkit.netlify.app/modules/</loc>
+    <loc>/modules/</loc>
   </url>
   
   <url>
-    <loc>http://dosstoolkit.netlify.app/series/</loc>
+    <loc>/series/</loc>
   </url>
   
   <url>
-    <loc>http://dosstoolkit.netlify.app/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>

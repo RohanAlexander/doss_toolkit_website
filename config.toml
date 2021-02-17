@@ -1,4 +1,4 @@
-baseurl = "http://dosstoolkit.netlify.app/"
+baseurl = "/"
 title = "DoSS Toolkit"
 
 theme = "hugo-coder"
