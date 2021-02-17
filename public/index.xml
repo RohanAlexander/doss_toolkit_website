@@ -22,7 +22,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/assessment/</guid>
-      <description>Coming soon.</description>
+      <description>  Coming soon.
+  </description>
     </item>
     
     <item>
@@ -40,7 +41,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/modules/</guid>
-      <description> Hello World!:  Getting and setting up R Studio Hello World! Hello World, again! The R community   Operating in an error prone world:  Getting help is normal! Learning to learn R Using Google and Stack Overflow Even more on Stack Overflow (trust us, you&amp;rsquo;ll spend a lot of time here) When your code doesn’t work Making reproducible examples    </description>
+      <description>Hello World!:  Why I love R, by Rohan Alexander. Getting and setting up R Studio, by Rohan Alexander. Hello World!, by Annie Collins. Hello World, again!, by Shirley Deng. The R community, by Annie Collins.   Operating in an error prone world:  Why I love R, by Monica Alexander. Getting help is normal! Learning to learn R, by Michael Chong. Using Google and Stack Overflow, by Michael Chong.</description>
     </item>
     
   </channel>

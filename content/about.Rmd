@@ -60,13 +60,21 @@ Shirley Deng - Shirley is an undergraduate student specializing in Statistics an
 # Acknowledgements
 
 We gratefully acknowledge the support of Professor Bethany White, Chair Radu Craiu, and the U of T Faculty of Arts & Sciences Pedagogical Innovation and Experimentation Fund.
+
+We'd like to acknowledge the help of:
+
+- Alex Cookson
+- Monica Alexander
+- Sabrina Sixta
  
 
  
 # Next steps 
 
-- Modules - Stan.
-- French language version - bilingualism in Canada is important to us and we hope to partner with another university to release a French language equivalent soon.
+- Modules
+  - Shiny
+  - Stan
+- French language version - we hope to partner with another university to release a French language equivalent soon.
 
 
 
