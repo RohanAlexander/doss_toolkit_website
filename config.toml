@@ -1,4 +1,4 @@
-baseurl = "https://www.dosstoolkit.com/"
+baseurl = "http://dosstoolkit.netlify.app/"
 title = "DoSS Toolkit"
 
 theme = "hugo-coder"
@@ -79,11 +79,6 @@ pygmentscodefencesguesssyntax = true
         name = "Modules"
         weight = 2
         url = "modules/"
-
-        [[languages.en.menu.main]]
-        name = "Lessons"
-        weight = 3
-        url = "lessons/"
         
         [[languages.en.menu.main]]
         name = "Assessment"

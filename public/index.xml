@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DoSS Toolkit</title>
-    <link>https://www.dosstoolkit.com/</link>
+    <link>http://dosstoolkit.netlify.app/</link>
     <description>Recent content on DoSS Toolkit</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://www.dosstoolkit.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="http://dosstoolkit.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://www.dosstoolkit.com/about/</link>
+      <link>http://dosstoolkit.netlify.app/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dosstoolkit.com/about/</guid>
+      <guid>http://dosstoolkit.netlify.app/about/</guid>
       <description>Overview We all know that R is a critical part of statistics these days, but it can have a steep learning curve and be intimidating to get started with. The Department of Statistical Sciences (DoSS) toolkit is a free series of open source online modules written by undergraduates, that their fellow students and the public can use to learn the essentials of R.
  How to use this resource The best way to use this is to download the package and run it locally.</description>
     </item>
     
     <item>
       <title>Assessment</title>
-      <link>https://www.dosstoolkit.com/assessment/</link>
+      <link>http://dosstoolkit.netlify.app/assessment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dosstoolkit.com/assessment/</guid>
+      <guid>http://dosstoolkit.netlify.app/assessment/</guid>
       <description>Coming soon.</description>
     </item>
     
     <item>
       <title>Lessons</title>
-      <link>https://www.dosstoolkit.com/lessons/</link>
+      <link>http://dosstoolkit.netlify.app/lessons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dosstoolkit.com/lessons/</guid>
+      <guid>http://dosstoolkit.netlify.app/lessons/</guid>
       <description>Coming soon.</description>
     </item>
     
     <item>
       <title>Modules</title>
-      <link>https://www.dosstoolkit.com/modules/</link>
+      <link>http://dosstoolkit.netlify.app/modules/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.dosstoolkit.com/modules/</guid>
-      <description>Coming soon.</description>
+      <guid>http://dosstoolkit.netlify.app/modules/</guid>
+      <description> Hello World!:  Getting and setting up R Studio Hello World! Hello World, again! The R community   Operating in an error prone world:  Getting help is normal! Learning to learn R Using Google and Stack Overflow Even more on Stack Overflow (trust us, you&amp;rsquo;ll spend a lot of time here) When your code doesn’t work Making reproducible examples    </description>
     </item>
     
   </channel>
