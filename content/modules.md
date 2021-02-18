@@ -17,7 +17,7 @@ slug = "modules"
   - When your code doesn’t work, by Michael Chong.
   - Making reproducible examples, by Marija Pejcinovska.
 - [Holding the chaos at bay](https://rohanalexander.shinyapps.io/holding_the_chaos_at_bay/):
-  - Why I love R, by Samantha-Jo Caetano
+  - Why I love R, by Samantha-Jo Caetano.
   - R Projects and setwd(), by Isaac Ehrlich.
   - Folder set-up, by Isaac Ehrlich.
   - Writing comments, by Isaac Ehrlich.
@@ -27,8 +27,8 @@ slug = "modules"
   - Updating libraries, by Mariam Walaa.
   - Delimited data files with read_csv(), by Marija Pejcinovska.
 - [Hand me my plyrs](https://rohanalexander.shinyapps.io/hand_me_my_plyrs/):
-  - Why I love R, by Sabrina Sixta
-  - The pipe: %<%, by Mariam Walaa.
+  - Why I love R, by Sabrina Sixta.
+  - The pipe: %>%, by Mariam Walaa.
   - select(), by Yena Joo.
   - filter(), by Shirley Deng.
   - group_by() and ungroup(), by Matthew Wankiewicz.
@@ -39,7 +39,40 @@ slug = "modules"
   - rename(), by Mariam Walaa.
   - count() and uncount(), by Annie Collins.
   - slice(), by Annie Collins.
+- [Totally addicted to base](https://rohanalexander.shinyapps.io/totally_addicted_to_base/)
+  - function(), *Coming soon!*
+  - mean(), median(), sd(), lm(), summary(), by Mariam Walaa.
+  - for() and while(), by Yena Joo.
+  - if(), ifelse(), *Coming soon!*
+  - c(), seq(), seq_along() & rep(), by Matthew Wankiewicz.
+- [He was a d8er boi](https://rohanalexander.shinyapps.io/he_was_a_d8er_boi/)
+  - class() and basics of data types,  *Coming soon!*
+  - Strings with paste and glue and stringr, by Marija Pejcinovska.
+  - Vectors, matrices, dataframes and tibbles, by Matthew Wankiewicz.
+  - length(), nrow(), and ncol(), *Coming soon!*
+  - names(), cbind(), and rbind(), *Coming soon!*
+  - left_join(), anti_join(), full_join, etc, *Coming soon!*
+  - set.seed(), runif(), rnorm() and sample(), by Haoluan Chen.
+  - Simulating regression datasets, by Mariam Walaa.
+- [To ggplot or not to ggplot](https://rohanalexander.shinyapps.io/to_ggplot_or_not_to_ggplot/)
+  - ggplot2::ggplot(), by Shirley Deng.
+  - Bar charts, by Matthew Wankiewicz.
+  - Histograms, by Haoluan Chen.
+  - Scatterplots, *Coming soon!*
+  - Various useful options including: facets, labels, colours, and breaks, by Yena Joo.
+  - Saving graphs and changing their size and other options, by Yena Joo.
+- [R Markdown](https://rohanalexander.shinyapps.io/rmarkdown/)
+  - R Markdown, by Shirley Deng.
+  - Sections, sub-section, etc, bold, italics, maths, *Coming soon!*
+  - Figures and cross-references, *Coming soon!*
+  - Top matter: title, date, author, abstract, *Coming soon!*
+  - Tables: kable, kableextra, gt, by Yena Joo.
+  - References and Bibtex, by Yena Joo.
+  - PDF outputs, by Yena Joo.
+- [git outta here](https://rohanalexander.shinyapps.io/git_outta_here/)
+  - What is version control and GitHub?, by Mariam Walaa.
+  - Git: pull, status, add, commit, push, by Mariam Walaa.
+  - Branches in GitHub, by Matthew Wankiewicz.
+  - Dealing with conflicts, by Matthew Wankiewicz.
 
-  
-  
   
