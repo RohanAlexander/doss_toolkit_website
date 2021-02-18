@@ -4,5 +4,6 @@ title: "Assessment"
 
 *Coming soon.*
 
-
-<center>![](/images/stitches_white_hex.png){width="25%"}</center>
+```{r, out.width= "25%", echo = FALSE}
+knitr::include_graphics(c("/images/stitches_white_hex.png", "/images/stitches_yellow_hex.png", "/images/stitches_green_hex.png", "/images/stitches_brown_hex.png"), error = FALSE) 
+```

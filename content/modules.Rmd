@@ -1,0 +1,228 @@
+---
+title: "Modules"
+---
+
+# How to use this resource
+
+The best way to use this is to download the package and run it locally. This ensures that the modules work quickly for you. To do this you need to install a few packages (if you don't already have them on your computer):
+
+```{r, eval = FALSE}
+install.packages('tidyverse')
+install.packages('remotes')
+install.packages('opendatatoronto')
+remotes::install_github("rstudio-education/gradethis")
+```
+
+Then you can install the `DoSStoolkit`:
+
+```{r, eval = FALSE}
+remotes::install_github("RohanAlexander/DoSStoolkit")
+```
+
+You'll use the function `run_tutorial` to run each module. At the moment we have nine modules. So you can pick one to start with. For instance, if you wanted to run the 'hello world' module then run:
+
+```{r, eval = FALSE}
+learnr::run_tutorial("hello_world", package = "DoSStoolkit")
+```
+
+For reference, a complete collection is here:
+
+```{r, eval = FALSE}
+learnr::run_tutorial("hello_world", package = "DoSStoolkit")
+learnr::run_tutorial("holding_the_chaos_at_bay", package = "DoSStoolkit")
+learnr::run_tutorial("operating_in_an_error_prone_world", package = "DoSStoolkit")
+learnr::run_tutorial("hand_me_my_plyrs", package = "DoSStoolkit")
+learnr::run_tutorial("totally_addicted_to_base", package = "DoSStoolkit")
+learnr::run_tutorial("he_was_a_d8er_boi", package = "DoSStoolkit")
+learnr::run_tutorial("to_ggplot_or_not_to_ggplot", package = "DoSStoolkit")
+learnr::run_tutorial("r_marky_markdown_and_the_funky_docs", package = "DoSStoolkit")
+learnr::run_tutorial("git_outta_here", package = "DoSStoolkit")
+```
+
+# Hello world!
+
+How to run this module:
+
+```{r, eval = FALSE}
+learnr::run_tutorial("hello_world", package = "DoSStoolkit")
+```
+
+Module content: 
+
+- Why I love R, by Liza Bolton.
+- Getting and setting up R Studio, by Rohan Alexander.
+- Hello World!, by Annie Collins.
+- Hello World, again!, by Shirley Deng.
+- The R community, by Annie Collins.
+
+
+# Operating in an error prone world
+
+How to run this module:
+
+```{r, eval = FALSE}
+learnr::run_tutorial("operating_in_an_error_prone_world", package = "DoSStoolkit")
+```
+
+Module content: 
+
+- Why I love R, by Monica Alexander.
+- Getting help is normal! Learning to learn R, by Michael Chong.
+- Using Google and Stack Overflow, by Michael Chong.
+- Even more on Stack Overflow (trust us, you'll spend a lot of time here), by Annie Collins.
+- When your code doesn’t work, by Michael Chong.
+- Making reproducible examples, by Marija Pejcinovska.
+
+
+
+
+# Holding the chaos at bay
+
+How to run this module:
+
+```{r, eval = FALSE}
+learnr::run_tutorial("holding_the_chaos_at_bay", package = "DoSStoolkit")
+```
+
+Module content: 
+
+- Why I love R, by Samantha-Jo Caetano.
+- R Projects and setwd(), by Isaac Ehrlich.
+- Folder set-up, by Isaac Ehrlich.
+- Writing comments, by Isaac Ehrlich.
+- Installing packages from CRAN, by Haoluan Chen.
+- Installing packages from GitHub, by Haoluan Chen.
+- Loading packages, by Mariam Walaa.
+- Updating libraries, by Mariam Walaa.
+- Delimited data files with read_csv(), by Marija Pejcinovska.
+
+
+
+# Hand me my plyrs
+
+How to run this module:
+
+```{r, eval = FALSE}
+learnr::run_tutorial("hand_me_my_plyrs", package = "DoSStoolkit")
+```
+
+Module content: 
+
+- Why I love R, by Sabrina Sixta.
+- What is the tidyverse?, *Coming soon!*
+- The pipe: %>%, by Mariam Walaa.
+- select(), by Yena Joo.
+- filter(), by Shirley Deng.
+- group_by() and ungroup(), by Matthew Wankiewicz.
+- summarise(), by Mariam Walaa.
+- arrange(), by Isaac Ehrlich.
+- mutate(), by Haoluan Chen.
+- pivot_wider() and pivot_longer(), by Annie Collins.
+- rename(), by Mariam Walaa.
+- count() and uncount(), by Annie Collins.
+- slice(), by Annie Collins.
+
+
+
+# Totally addicted to base
+
+How to run this module:
+
+```{r, eval = FALSE}
+learnr::run_tutorial("totally_addicted_to_base", package = "DoSStoolkit")
+```
+
+Module content: 
+
+- Why I love R, by Rohan Alexander.
+- What is base?, *Coming soon!*
+- function(), *Coming soon!*
+- mean(), median(), sd(), lm(), summary(), by Mariam Walaa.
+- for() and while(), by Yena Joo.
+- if(), ifelse(), *Coming soon!*
+- c(), seq(), seq_along() & rep(), by Matthew Wankiewicz.
+
+
+
+# He was a d8er boi
+
+How to run this module:
+
+```{r, eval = FALSE}
+learnr::run_tutorial("he_was_a_d8er_boi", package = "DoSStoolkit")
+```
+
+Module content: 
+
+- An overview of R and data,  *Coming soon!*
+- class() and basics of data types,  *Coming soon!*
+- Strings with paste and glue and stringr, by Marija Pejcinovska.
+- Vectors, matrices, dataframes and tibbles, by Matthew Wankiewicz.
+- length(), nrow(), and ncol(), *Coming soon!*
+- names(), cbind(), and rbind(), *Coming soon!*
+- left_join(), anti_join(), full_join, etc, *Coming soon!*
+- set.seed(), runif(), rnorm() and sample(), by Haoluan Chen.
+- Simulating regression datasets, by Mariam Walaa.
+
+
+
+# To ggplot or not to ggplot
+
+How to run this module:
+
+```{r, eval = FALSE}
+learnr::run_tutorial("to_ggplot_or_not_to_ggplot", package = "DoSStoolkit")
+```
+
+Module content: 
+
+- What is ggplot()?, by Shirley Deng.
+- Bar charts, by Matthew Wankiewicz.
+- Histograms, by Haoluan Chen.
+- Scatterplots, *Coming soon!*
+- Various useful options including: facets, labels, colours, and breaks, by Yena Joo.
+- Saving graphs and changing their size and other options, by Yena Joo.
+
+
+
+
+# R Marky Markdown and the Funky Docs
+
+How to run this module:
+
+```{r, eval = FALSE}
+learnr::run_tutorial("r_marky_markdown_and_the_funky_docs", package = "DoSStoolkit")
+```
+
+Module content: 
+
+- What is R Markdown?, by Shirley Deng.
+- Sections, sub-section, etc, bold, italics, maths, *Coming soon!*
+- Figures and cross-references, *Coming soon!*
+- Top matter: title, date, author, abstract, *Coming soon!*
+- Tables: kable, kableextra, gt, by Yena Joo.
+- References and Bibtex, by Yena Joo.
+- PDF outputs, by Yena Joo.
+
+
+
+
+# git outta here
+
+How to run this module:
+
+```{r, eval = FALSE}
+learnr::run_tutorial("git_outta_here", package = "DoSStoolkit")
+```
+
+Module content: 
+
+- What is version control and GitHub?, by Mariam Walaa.
+- Git: pull, status, add, commit, push, by Mariam Walaa.
+- Branches in GitHub, by Matthew Wankiewicz.
+- Dealing with conflicts, by Matthew Wankiewicz.
+
+  
+
+
+

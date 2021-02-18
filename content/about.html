@@ -9,20 +9,6 @@ title: "About"
 <h1>Overview</h1>
 <p>We all know that R is a critical part of statistics these days, but it can have a steep learning curve and be intimidating to get started with. The <a href="http://www.utstat.utoronto.ca/">Department of Statistical Sciences</a> (DoSS) toolkit is a free series of open source online modules written by undergraduates, that their fellow students and the public can use to learn the essentials of R.</p>
 </div>
-<div id="how-to-use-this-resource" class="section level1">
-<h1>How to use this resource</h1>
-<p>The best way to use this is to download the package and run it locally. This ensures that the modules work quickly for you. To do this is to install <code>learnr</code>:</p>
-<pre class="r"><code>install.packages(&quot;learnr&quot;)</code></pre>
-<p>Then install <code>DoSStoolkit</code>:</p>
-<pre class="r"><code>install.packages(&quot;DoSStoolkit&quot;)</code></pre>
-<p>And then use the function <code>run_tutorial</code>. For instance to launch the first module run:</p>
-<pre class="r"><code>learnr::run_tutorial(&quot;introduction&quot;, package = &quot;DoSStoolkit&quot;)</code></pre>
-</div>
-<div id="how-to-contribute" class="section level1">
-<h1>How to contribute</h1>
-<p>The best way to contribute fixes and minor typos is to make a pull request on GitHub. Please make the pull request to the functions folder rather than the specific component that you are using.</p>
-<p>If you are interested in contributing lessons or modules, then please contact Rohan Alexander.</p>
-</div>
 <div id="contributors" class="section level1">
 <h1>Contributors</h1>
 <ul>
@@ -36,7 +22,7 @@ title: "About"
 <li>Rohan Alexander is an assistant professor in the Faculty of Information and the Department of Statistical Sciences. Some people convert to catholicism upon marriage, Rohan converted to R. His greatest professional achievement is probably getting a pull request accepted into R for Data Science (it was just fixing a minor typo but still).</li>
 <li>Samantha-Jo Caetano is an assistant professor (teaching stream) in the Department of Statistical Sciences. She loves statistics, socializing, her family, and her dogs, not necessarily in that order.</li>
 <li>Shirley Deng - Shirley is an undergraduate student specializing in Statistics and majoring in Mathematics. Meticulous and soft-hearted, she often finds herself engrossed in new pastimes by the second at the influence of her peers. One of which that has remained a longtime constant - spending an excessive amount of time helping people debug their R code.</li>
-<li>Yena Joo is an undergraduate student majoring in Economics and double minoring in Statistics and Comupter Science.</li>
+<li>Yena Joo is an undergraduate student majoring in Economics and double minoring in Statistics and Computer Science.</li>
 </ul>
 </div>
 <div id="pedagogical-underpinnings" class="section level1">
@@ -48,23 +34,65 @@ title: "About"
 <p>We gratefully acknowledge the support of Professor Bethany White, Chair Radu Craiu, and the U of T Faculty of Arts &amp; Sciences Pedagogical Innovation and Experimentation Fund.</p>
 <p>We’d like to acknowledge the help of:</p>
 <ul>
-<li>Alex Cookson</li>
+<li>Liza Bolton</li>
 <li>Monica Alexander</li>
 <li>Sabrina Sixta</li>
+</ul>
+<p>We’d like to thank Alex Cookson for his collection of datasets.</p>
+<p>This toolkit builds on, and complements, the work of many others, including:</p>
+<ul>
+<li>Alex Stringer - <a href="https://github.com/awstringer1/course-materials" class="uri">https://github.com/awstringer1/course-materials</a></li>
+<li>Alison Gibbs, Jeff Rosenthal, Nathan Taback - <a href="https://stats.onlinelearning.utoronto.ca/" class="uri">https://stats.onlinelearning.utoronto.ca/</a></li>
+<li>Bethany White and Jennifer Peter - <a href="https://rscidata.utoronto.ca/" class="uri">https://rscidata.utoronto.ca/</a></li>
+<li>Desirée De Leon and Alison Hill - <a href="https://rstudio4edu.github.io/rstudio4edu-book/" class="uri">https://rstudio4edu.github.io/rstudio4edu-book/</a></li>
+<li>Hasse Walum and Desirée De Leon - <a href="https://tinystats.github.io/teacups-giraffes-and-statistics/index.html" class="uri">https://tinystats.github.io/teacups-giraffes-and-statistics/index.html</a></li>
+<li>Nathan Taback - <a href="https://ntaback.github.io/UofT_STA130/R_resources.html" class="uri">https://ntaback.github.io/UofT_STA130/R_resources.html</a></li>
+<li>Radford Neal - <a href="http://www.cs.utoronto.ca/~radford/csc121.S17/" class="uri">http://www.cs.utoronto.ca/~radford/csc121.S17/</a></li>
+</ul>
+<p>Rohan would like to thank Greg Wilson, for sharing his experience, thoughts, and leadership.</p>
+</div>
+<div id="references" class="section level1">
+<h1>References</h1>
+<p>We draw on the open source statistical programming language R and a variety of packages. We are grateful for the work that we build on.</p>
+<ul>
+<li>Barret Schloerke, JJ Allaire, Barbara Borges and Garrick Aden-Buie (2021). learnr: Interactive Tutorials for R. <a href="https://rstudio.github.io/learnr/" class="uri">https://rstudio.github.io/learnr/</a>, <a href="https://github.com/rstudio/learnr" class="uri">https://github.com/rstudio/learnr</a>.</li>
+<li>Bodwin, Kelly, and Hunter Glanz (2020). flair: Highlight, Annotate, and Format your R Source Code. R package version 0.0.2. <a href="https://CRAN.R-project.org/package=flair" class="uri">https://CRAN.R-project.org/package=flair</a></li>
+<li>Chen, Daniel, Barret Schloerke, Garrick Aden-Buie and Garrett Grolemund (2021). gradethis: Automated Feedback for Student Exercises in ‘learnr’ Tutorials. <a href="https://rstudio-education.github.io/gradethis/" class="uri">https://rstudio-education.github.io/gradethis/</a>, <a href="https://rstudio.github.io/learnr/" class="uri">https://rstudio.github.io/learnr/</a>, <a href="https://github.com/rstudio-education/gradethis" class="uri">https://github.com/rstudio-education/gradethis</a>.</li>
+<li>de Vries, Andrie, Barret Schloerke and Kenton Russell (2020). sortable: Drag-and-Drop in ‘shiny’ Apps with ‘SortableJS’. R package version 0.4.4. <a href="https://CRAN.R-project.org/package=sortable" class="uri">https://CRAN.R-project.org/package=sortable</a></li>
+<li>Gelfand, Sharla, (2020). opendatatoronto: Access the City of Toronto Open Data Portal. R package version 0.1.4. <a href="https://CRAN.R-project.org/package=opendatatoronto" class="uri">https://CRAN.R-project.org/package=opendatatoronto</a></li>
+<li>Hester, Jim, Gábor Csárdi, Hadley Wickham, Winston Chang, Martin Morgan and Dan Tenenbaum (2020). remotes: R Package Installation from Remote Repositories, Including ‘GitHub’. R package version 2.2.0. <a href="https://CRAN.R-project.org/package=remotes" class="uri">https://CRAN.R-project.org/package=remotes</a></li>
+<li>R Core Team (2020). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL <a href="https://www.R-project.org/" class="uri">https://www.R-project.org/</a>.</li>
+<li>Wickham et al., (2019). Welcome to the tidyverse. Journal of Open Source Software, 4(43), 1686, <a href="https://doi.org/10.21105/joss.01686" class="uri">https://doi.org/10.21105/joss.01686</a></li>
 </ul>
 </div>
 <div id="next-steps" class="section level1">
 <h1>Next steps</h1>
 <ul>
+<li>Assessment</li>
 <li>Modules
 <ul>
-<li>Shiny</li>
+<li>Iteration</li>
+<li>Data II</li>
+<li>Strings</li>
+<li>Dates</li>
 <li>Stan</li>
+<li>Packages</li>
+<li>Shiny</li>
+<li>Teaching</li>
 </ul></li>
-<li>French language version - we hope to partner with another university to release a French language equivalent soon.</li>
+<li>French language version</li>
 </ul>
+</div>
+<div id="citation" class="section level1">
+<h1>Citation</h1>
+<p>We have a pre-print coming soon.</p>
+</div>
+<div id="how-to-contribute" class="section level1">
+<h1>How to contribute</h1>
+<p>The best way to contribute fixes and minor typos is to make a pull request on GitHub. Please make the pull request to the functions folder rather than the specific component that you are using.</p>
+<p>If you are interested in contributing lessons or modules, then please contact Rohan Alexander. We are particularly interested in partnering with an institution where the language of instruction is French to develop a French language version.</p>
 </div>
 <div id="contact" class="section level1">
 <h1>Contact</h1>
-<p>Please direct all enquiries to Rohan Alexander - <a href="mailto:rohan.alexander@utoronto.ca" class="email">rohan.alexander@utoronto.ca</a>.</p>
+<p>Please contact Rohan (<a href="mailto:rohan.alexander@utoronto.ca" class="email">rohan.alexander@utoronto.ca</a>) with any questions, comments, and suggestions.</p>
 </div>

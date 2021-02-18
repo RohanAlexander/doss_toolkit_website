@@ -1,0 +1,167 @@
+---
+title: "Modules"
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<div id="how-to-use-this-resource" class="section level1">
+<h1>How to use this resource</h1>
+<p>The best way to use this is to download the package and run it locally. This ensures that the modules work quickly for you. To do this you need to install a few packages (if you don’t already have them on your computer):</p>
+<pre class="r"><code>install.packages(&#39;tidyverse&#39;)
+install.packages(&#39;remotes&#39;)
+install.packages(&#39;opendatatoronto&#39;)
+remotes::install_github(&quot;rstudio-education/gradethis&quot;)</code></pre>
+<p>Then you can install the <code>DoSStoolkit</code>:</p>
+<pre class="r"><code>remotes::install_github(&quot;RohanAlexander/DoSStoolkit&quot;)</code></pre>
+<p>You’ll use the function <code>run_tutorial</code> to run each module. At the moment we have nine modules. So you can pick one to start with. For instance, if you wanted to run the ‘hello world’ module then run:</p>
+<pre class="r"><code>learnr::run_tutorial(&quot;hello_world&quot;, package = &quot;DoSStoolkit&quot;)</code></pre>
+<p>For reference, a complete collection is here:</p>
+<pre class="r"><code>learnr::run_tutorial(&quot;hello_world&quot;, package = &quot;DoSStoolkit&quot;)
+learnr::run_tutorial(&quot;holding_the_chaos_at_bay&quot;, package = &quot;DoSStoolkit&quot;)
+learnr::run_tutorial(&quot;operating_in_an_error_prone_world&quot;, package = &quot;DoSStoolkit&quot;)
+learnr::run_tutorial(&quot;hand_me_my_plyrs&quot;, package = &quot;DoSStoolkit&quot;)
+learnr::run_tutorial(&quot;totally_addicted_to_base&quot;, package = &quot;DoSStoolkit&quot;)
+learnr::run_tutorial(&quot;he_was_a_d8er_boi&quot;, package = &quot;DoSStoolkit&quot;)
+learnr::run_tutorial(&quot;to_ggplot_or_not_to_ggplot&quot;, package = &quot;DoSStoolkit&quot;)
+learnr::run_tutorial(&quot;r_marky_markdown_and_the_funky_docs&quot;, package = &quot;DoSStoolkit&quot;)
+learnr::run_tutorial(&quot;git_outta_here&quot;, package = &quot;DoSStoolkit&quot;)</code></pre>
+</div>
+<div id="hello-world" class="section level1">
+<h1>Hello world!</h1>
+<p>How to run this module:</p>
+<pre class="r"><code>learnr::run_tutorial(&quot;hello_world&quot;, package = &quot;DoSStoolkit&quot;)</code></pre>
+<p>Module content:</p>
+<ul>
+<li>Why I love R, by Liza Bolton.</li>
+<li>Getting and setting up R Studio, by Rohan Alexander.</li>
+<li>Hello World!, by Annie Collins.</li>
+<li>Hello World, again!, by Shirley Deng.</li>
+<li>The R community, by Annie Collins.</li>
+</ul>
+</div>
+<div id="operating-in-an-error-prone-world" class="section level1">
+<h1>Operating in an error prone world</h1>
+<p>How to run this module:</p>
+<pre class="r"><code>learnr::run_tutorial(&quot;operating_in_an_error_prone_world&quot;, package = &quot;DoSStoolkit&quot;)</code></pre>
+<p>Module content:</p>
+<ul>
+<li>Why I love R, by Monica Alexander.</li>
+<li>Getting help is normal! Learning to learn R, by Michael Chong.</li>
+<li>Using Google and Stack Overflow, by Michael Chong.</li>
+<li>Even more on Stack Overflow (trust us, you’ll spend a lot of time here), by Annie Collins.</li>
+<li>When your code doesn’t work, by Michael Chong.</li>
+<li>Making reproducible examples, by Marija Pejcinovska.</li>
+</ul>
+</div>
+<div id="holding-the-chaos-at-bay" class="section level1">
+<h1>Holding the chaos at bay</h1>
+<p>How to run this module:</p>
+<pre class="r"><code>learnr::run_tutorial(&quot;holding_the_chaos_at_bay&quot;, package = &quot;DoSStoolkit&quot;)</code></pre>
+<p>Module content:</p>
+<ul>
+<li>Why I love R, by Samantha-Jo Caetano.</li>
+<li>R Projects and setwd(), by Isaac Ehrlich.</li>
+<li>Folder set-up, by Isaac Ehrlich.</li>
+<li>Writing comments, by Isaac Ehrlich.</li>
+<li>Installing packages from CRAN, by Haoluan Chen.</li>
+<li>Installing packages from GitHub, by Haoluan Chen.</li>
+<li>Loading packages, by Mariam Walaa.</li>
+<li>Updating libraries, by Mariam Walaa.</li>
+<li>Delimited data files with read_csv(), by Marija Pejcinovska.</li>
+</ul>
+</div>
+<div id="hand-me-my-plyrs" class="section level1">
+<h1>Hand me my plyrs</h1>
+<p>How to run this module:</p>
+<pre class="r"><code>learnr::run_tutorial(&quot;hand_me_my_plyrs&quot;, package = &quot;DoSStoolkit&quot;)</code></pre>
+<p>Module content:</p>
+<ul>
+<li>Why I love R, by Sabrina Sixta.</li>
+<li>What is the tidyverse?, <em>Coming soon!</em></li>
+<li>The pipe: %&gt;%, by Mariam Walaa.</li>
+<li>select(), by Yena Joo.</li>
+<li>filter(), by Shirley Deng.</li>
+<li>group_by() and ungroup(), by Matthew Wankiewicz.</li>
+<li>summarise(), by Mariam Walaa.</li>
+<li>arrange(), by Isaac Ehrlich.</li>
+<li>mutate(), by Haoluan Chen.</li>
+<li>pivot_wider() and pivot_longer(), by Annie Collins.</li>
+<li>rename(), by Mariam Walaa.</li>
+<li>count() and uncount(), by Annie Collins.</li>
+<li>slice(), by Annie Collins.</li>
+</ul>
+</div>
+<div id="totally-addicted-to-base" class="section level1">
+<h1>Totally addicted to base</h1>
+<p>How to run this module:</p>
+<pre class="r"><code>learnr::run_tutorial(&quot;totally_addicted_to_base&quot;, package = &quot;DoSStoolkit&quot;)</code></pre>
+<p>Module content:</p>
+<ul>
+<li>Why I love R, by Rohan Alexander.</li>
+<li>What is base?, <em>Coming soon!</em></li>
+<li>function(), <em>Coming soon!</em></li>
+<li>mean(), median(), sd(), lm(), summary(), by Mariam Walaa.</li>
+<li>for() and while(), by Yena Joo.</li>
+<li>if(), ifelse(), <em>Coming soon!</em></li>
+<li>c(), seq(), seq_along() &amp; rep(), by Matthew Wankiewicz.</li>
+</ul>
+</div>
+<div id="he-was-a-d8er-boi" class="section level1">
+<h1>He was a d8er boi</h1>
+<p>How to run this module:</p>
+<pre class="r"><code>learnr::run_tutorial(&quot;he_was_a_d8er_boi&quot;, package = &quot;DoSStoolkit&quot;)</code></pre>
+<p>Module content:</p>
+<ul>
+<li>An overview of R and data, <em>Coming soon!</em></li>
+<li>class() and basics of data types, <em>Coming soon!</em></li>
+<li>Strings with paste and glue and stringr, by Marija Pejcinovska.</li>
+<li>Vectors, matrices, dataframes and tibbles, by Matthew Wankiewicz.</li>
+<li>length(), nrow(), and ncol(), <em>Coming soon!</em></li>
+<li>names(), cbind(), and rbind(), <em>Coming soon!</em></li>
+<li>left_join(), anti_join(), full_join, etc, <em>Coming soon!</em></li>
+<li>set.seed(), runif(), rnorm() and sample(), by Haoluan Chen.</li>
+<li>Simulating regression datasets, by Mariam Walaa.</li>
+</ul>
+</div>
+<div id="to-ggplot-or-not-to-ggplot" class="section level1">
+<h1>To ggplot or not to ggplot</h1>
+<p>How to run this module:</p>
+<pre class="r"><code>learnr::run_tutorial(&quot;to_ggplot_or_not_to_ggplot&quot;, package = &quot;DoSStoolkit&quot;)</code></pre>
+<p>Module content:</p>
+<ul>
+<li>What is ggplot()?, by Shirley Deng.</li>
+<li>Bar charts, by Matthew Wankiewicz.</li>
+<li>Histograms, by Haoluan Chen.</li>
+<li>Scatterplots, <em>Coming soon!</em></li>
+<li>Various useful options including: facets, labels, colours, and breaks, by Yena Joo.</li>
+<li>Saving graphs and changing their size and other options, by Yena Joo.</li>
+</ul>
+</div>
+<div id="r-marky-markdown-and-the-funky-docs" class="section level1">
+<h1>R Marky Markdown and the Funky Docs</h1>
+<p>How to run this module:</p>
+<pre class="r"><code>learnr::run_tutorial(&quot;r_marky_markdown_and_the_funky_docs&quot;, package = &quot;DoSStoolkit&quot;)</code></pre>
+<p>Module content:</p>
+<ul>
+<li>What is R Markdown?, by Shirley Deng.</li>
+<li>Sections, sub-section, etc, bold, italics, maths, <em>Coming soon!</em></li>
+<li>Figures and cross-references, <em>Coming soon!</em></li>
+<li>Top matter: title, date, author, abstract, <em>Coming soon!</em></li>
+<li>Tables: kable, kableextra, gt, by Yena Joo.</li>
+<li>References and Bibtex, by Yena Joo.</li>
+<li>PDF outputs, by Yena Joo.</li>
+</ul>
+</div>
+<div id="git-outta-here" class="section level1">
+<h1>git outta here</h1>
+<p>How to run this module:</p>
+<pre class="r"><code>learnr::run_tutorial(&quot;git_outta_here&quot;, package = &quot;DoSStoolkit&quot;)</code></pre>
+<p>Module content:</p>
+<ul>
+<li>What is version control and GitHub?, by Mariam Walaa.</li>
+<li>Git: pull, status, add, commit, push, by Mariam Walaa.</li>
+<li>Branches in GitHub, by Matthew Wankiewicz.</li>
+<li>Dealing with conflicts, by Matthew Wankiewicz.</li>
+</ul>
+</div>
