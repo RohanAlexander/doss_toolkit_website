@@ -61,7 +61,7 @@ slug = "modules"
   - Scatterplots, *Coming soon!*
   - Various useful options including: facets, labels, colours, and breaks, by Yena Joo.
   - Saving graphs and changing their size and other options, by Yena Joo.
-- [R Markdown](https://rohanalexander.shinyapps.io/rmarkdown/)
+- [R Marky Markdown and the Funky Docs](https://rohanalexander.shinyapps.io/r_marky_markdown_and_the_funky_docs/)
   - R Markdown, by Shirley Deng.
   - Sections, sub-section, etc, bold, italics, maths, *Coming soon!*
   - Figures and cross-references, *Coming soon!*
