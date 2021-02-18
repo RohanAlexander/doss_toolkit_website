@@ -3,35 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://www.dosstoolkit.com/about/</loc>
   </url>
   
   <url>
-    <loc>/assessment/</loc>
+    <loc>https://www.dosstoolkit.com/assessment/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://www.dosstoolkit.com/categories/</loc>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://www.dosstoolkit.com/</loc>
   </url>
   
   <url>
-    <loc>/lessons/</loc>
+    <loc>https://www.dosstoolkit.com/lessons/</loc>
   </url>
   
   <url>
-    <loc>/modules/</loc>
+    <loc>https://www.dosstoolkit.com/modules/</loc>
   </url>
   
   <url>
-    <loc>/series/</loc>
+    <loc>https://www.dosstoolkit.com/series/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://www.dosstoolkit.com/tags/</loc>
   </url>
   
 </urlset>

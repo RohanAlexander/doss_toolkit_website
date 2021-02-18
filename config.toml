@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://www.dosstoolkit.com/"
 title = "DoSS Toolkit"
 
 theme = "hugo-coder"
