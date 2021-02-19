@@ -35,7 +35,7 @@ learnr::run_tutorial("hand_me_my_plyrs", package = "DoSStoolkit")
 learnr::run_tutorial("totally_addicted_to_base", package = "DoSStoolkit")
 learnr::run_tutorial("he_was_a_d8er_boi", package = "DoSStoolkit")
 learnr::run_tutorial("to_ggplot_or_not_to_ggplot", package = "DoSStoolkit")
-learnr::run_tutorial("r_marky_markdown_and_the_funky_docs", package = "DoSStoolkit")
+learnr::run_tutorial("r_marky_markdown", package = "DoSStoolkit")
 learnr::run_tutorial("git_outta_here", package = "DoSStoolkit")
 ```
 
@@ -191,7 +191,7 @@ Module content:
 How to run this module:
 
 ```{r, eval = FALSE}
-learnr::run_tutorial("r_marky_markdown_and_the_funky_docs", package = "DoSStoolkit")
+learnr::run_tutorial("r_marky_markdown", package = "DoSStoolkit")
 ```
 
 Module content: 

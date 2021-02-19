@@ -22,7 +22,7 @@ pygmentscodefencesguesssyntax = true
     description = "Resources to help you learn and use R."
     keywords = "blog,developer,personal"
     info = "Self-paced modules to help you learn and use R."
-    avatarurl = "images/screenshot.png"
+    avatarurl = "images/front.png"
     footercontent = ""
     
     math = true

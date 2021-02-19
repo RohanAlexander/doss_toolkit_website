@@ -13,7 +13,7 @@
       
       <guid>https://www.dosstoolkit.com/about/</guid>
       <description>Overview We all know that R is a critical part of statistics these days, but it can have a steep learning curve and be intimidating to get started with. The Department of Statistical Sciences (DoSS) toolkit is a free series of open source online modules written by undergraduates, that their fellow students and the public can use to learn the essentials of R.
- How to use this resource The best way to use this is to download the package and run it locally.</description>
+ Contributors  Annie Collins is an undergraduate student in the Department of Mathematics specializing in applied mathematics and statistics with a minor in history and philosophy of science.</description>
     </item>
     
     <item>
@@ -22,8 +22,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.dosstoolkit.com/assessment/</guid>
-      <description>  Coming soon.
-  </description>
+      <description>Coming soon.</description>
     </item>
     
     <item>
@@ -41,7 +40,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.dosstoolkit.com/modules/</guid>
-      <description>Hello World!:  Why I love R, by Rohan Alexander. Getting and setting up R Studio, by Rohan Alexander. Hello World!, by Annie Collins. Hello World, again!, by Shirley Deng. The R community, by Annie Collins.   Operating in an error prone world:  Why I love R, by Monica Alexander. Getting help is normal! Learning to learn R, by Michael Chong. Using Google and Stack Overflow, by Michael Chong.</description>
+      <description>How to use this resource The best way to use this is to download the package and run it locally. This ensures that the modules work quickly for you. To do this you need to install a few packages (if you don’t already have them on your computer):
+install.packages(&amp;#39;tidyverse&amp;#39;) install.packages(&amp;#39;remotes&amp;#39;) install.packages(&amp;#39;opendatatoronto&amp;#39;) remotes::install_github(&amp;quot;rstudio-education/gradethis&amp;quot;) Then you can install the DoSStoolkit:
+remotes::install_github(&amp;quot;RohanAlexander/DoSStoolkit&amp;quot;) You’ll use the function run_tutorial to run each module. At the moment we have nine modules.</description>
     </item>
     
   </channel>
