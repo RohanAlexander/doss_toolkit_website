@@ -40,9 +40,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.dosstoolkit.com/modules/</guid>
-      <description>How to use this resource The best way to use this is to download the package and run it locally. This ensures that the modules work quickly for you. To do this you need to install a few packages (if you don’t already have them on your computer):
-install.packages(&amp;#39;tidyverse&amp;#39;) install.packages(&amp;#39;remotes&amp;#39;) install.packages(&amp;#39;opendatatoronto&amp;#39;) remotes::install_github(&amp;quot;rstudio-education/gradethis&amp;quot;) Then you can install the DoSStoolkit:
-remotes::install_github(&amp;quot;RohanAlexander/DoSStoolkit&amp;quot;) You’ll use the function run_tutorial to run each module. At the moment we have nine modules.</description>
+      <description>How to use this resource You use this resource by running R code! This may sound intimidating if you’ve never used R before, so we’ve made a video that walks through what you need to do.
+ Get started by going to R Studio Cloud - https://rstudio.cloud - and creating an account. When you’ve signed up, start a new project, and copy-paste the code below to install packages. (If you already have R and R Studio working on your local computer then you don’t have to use R Studio Cloud, you can install the packages on your local machine instead.</description>
     </item>
     
   </channel>
