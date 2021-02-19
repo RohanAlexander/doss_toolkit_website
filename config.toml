@@ -58,7 +58,7 @@ pygmentscodefencesguesssyntax = true
     name = "Github"
     icon = "fab fa-github"
     weight = 1
-    url = "https://github.com/RohanAlexander/doss-toolkit"
+    url = "https://github.com/RohanAlexander/dosstoolkit"
 [[params.social]]
     name = "Mail"
     icon = "fas fa-envelope"
